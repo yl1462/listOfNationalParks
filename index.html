@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of National Park</title>
+</head>
+
+<body>
+  <h1>National Parks Locator</h1>
+  <section>
+    <form>
+      <label>Please enter one or more states abbreviations, seperated by comma:</label>
+      <input type="text" id="stateAbb" placeholder="For example: VA or WI, TX" required>
+
+      <label>Maximum number of results: </label>
+      <input type="number" id="resultNumber" value="10">
+
+      <button type="submit" id="searchButton">Search</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <section id="results"></section>
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"
+    integrity="sha384-AQhQSZGQWTMJhb/TdS7NWpCmOM/8lIEsaevSU5oZtt8pQKoa+uJL4A2WnQ0O5Zj2"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
